@@ -1,0 +1,106 @@
+{
+  "*": {
+    "atom-beautify": {
+      "js": {}
+    },
+    "atom-ide-ui": {
+      "atom-ide-console": {},
+      "atom-ide-datatip": {},
+      "use": {}
+    },
+    "atom-material-ui": {
+      "colors": {
+        "predefinedColor": "Blue Grey"
+      },
+      "tabs": {
+        "compactTabs": true,
+        "tintedTabBar": true
+      },
+      "ui": {
+        "panelContrast": true,
+        "panelShadows": true,
+        "useAnimations": false
+      }
+    },
+    "autocomplete-plus": {
+      "autoActivationDelay": 150,
+      "enableBuiltinProvider": false,
+      "includeCompletionsFromAllBuffers": false
+    },
+    "bracket-matcher": {
+      "highlightMatchingLineNumber": true
+    },
+    "color-picker": {
+      "automaticReplace": true
+    },
+    "core": {
+      "autoHideMenuBar": true,
+      "telemetryConsent": "no",
+      "themes": [
+        "one-light-ui",
+        "atom-light-syntax"
+      ]
+    },
+    "editor": {
+      "fontSize": 13,
+      "invisibles": {},
+      "scrollPastEnd": true,
+      "scrollSensitivity": 200,
+      "showIndentGuide": true,
+      "softWrap": true,
+      "softWrapAtPreferredLineLength": true
+    },
+    "emmet": {},
+    "exception-reporting": {
+      "userId": "c5421730-fe58-461e-88c8-3cd6352bb2f5"
+    },
+    "file-icons": {},
+    "flow-ide": {},
+    "ide-flowtype": {
+      "customFlowPath": {}
+    },
+    "ide-typescript": {
+      "returnTypeInAutocomplete": "right"
+    },
+    "linter-ui-default": {},
+    "minimap": {},
+    "native-ui": {
+      "tabs": {},
+      "ui": {}
+    },
+    "platformio-ide-terminal": {
+      "ansiColors": {
+        "normal": {
+          "green": "#43db3d"
+        },
+        "zBright": {
+          "brightGreen": "#ffffff"
+        }
+      },
+      "style": {
+        "animationSpeed": 0,
+        "theme": "silver-aerogel"
+      },
+      "toggles": {
+        "autoClose": true
+      }
+    },
+    "seti-ui": {
+      "compactView": true,
+      "disableAnimations": true
+    },
+    "status-bar": {},
+    "tabs": {},
+    "unity-ui": {
+      "showIcons": true
+    },
+    "vim-mode-plus": {
+      "keymapCCToChangeInnerSmartWord": true,
+      "keymapSToSelect": true,
+      "keymapYToYankToLastCharacterOfLine": true
+    },
+    "welcome": {
+      "showOnStartup": false
+    }
+  }
+}
