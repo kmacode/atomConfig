@@ -71,8 +71,8 @@ atom-workspace':
   'alt-shift-b':  'editor:select-to-beginning-of-word'
   'alt-f':  'editor:move-to-end-of-word'
   'alt-shift-f':  'editor:select-to-end-of-word'
-  'ctrl-g': 'core:cancel'
+  # 'ctrl-g': 'core:cancel'
 
 '.tree-view':
-  'ctrl-f': 'tree-view:collapse-directory'
-  'ctrl-b': 'tree-view:expand-item'
+  'ctrl-b': 'tree-view:collapse-directory'
+  'ctrl-f': 'tree-view:expand-item'
