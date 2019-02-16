@@ -76,3 +76,6 @@ atom-workspace':
 '.tree-view':
   'ctrl-b': 'tree-view:collapse-directory'
   'ctrl-f': 'tree-view:expand-item'
+
+'body':
+  'ctrl-o': 'core:save'
