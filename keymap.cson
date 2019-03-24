@@ -50,7 +50,7 @@ atom-workspace':
   'ctrl-u': 'editor:delete-to-beginning-of-line'
   'alt-d': 'editor:delete-to-end-of-word'
   'ctrl-d': 'core:delete'
-  'ctrl-k': 'editor:delete-to-end-of-line'
+  'ctrl-k k': 'editor:delete-to-end-of-line'
 
   'alt-x': 'command-palette:toggle'
   'alt->': 'core:move-to-bottom'
