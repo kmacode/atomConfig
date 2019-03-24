@@ -1,3 +1,5 @@
+
+
 # Your keymap
 #
 # Atom keymaps work similarly to style sheets. Just as style sheets use
@@ -33,7 +35,7 @@
 # '.platform-linux atom-text-editor, .platform-win32 atom-workspace':
 #   'alt-`': 'platformio-ide-terminal:toggle'
 '.platform-linux, .platform-win32':
-  'alt-1': 'fuzzy-finder:toggle-file-finder'
+  'alt-q': 'fuzzy-finder:toggle-file-finder'
 
 'atom-text-editor:not([mini])':
   'ctrl-shift-p': 'core:select-up'
@@ -72,6 +74,7 @@ atom-workspace':
   'alt-f':  'editor:move-to-end-of-word'
   'alt-shift-f':  'editor:select-to-end-of-word'
   # 'ctrl-g': 'core:cancel'
+  'ctrl-s': 'find-and-replace:show'
 
 '.tree-view':
   'ctrl-b': 'tree-view:collapse-directory'
@@ -79,3 +82,5 @@ atom-workspace':
 
 'body':
   'ctrl-o': 'core:save'
+  'ctrl-k p': 'pane:split-up-and-copy-active-item'
+  'ctrl-k f': 'pane:split-right-and-copy-active-item'
